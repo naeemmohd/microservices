@@ -1,3 +1,5 @@
+To create a new WEB API project - dotnet new webapi -n <ServiceName>
+To add dependencies - dotnet add package <packagename>
 To build Docker Image - docker build -t mnaeemsiddiqui/platformservice .
 To run docker Image - docker run -p 8080:80 -d mnaeemsiddiqui/platformservice
 To view running containers - docker ps  
